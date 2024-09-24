@@ -8,9 +8,6 @@ const ShoesCardCart = ({imageUrlAdress, title, price, id}) => {
                 <img className={styles.cardImage} src={imageUrlAdress} alt="asd" />
                 <p className={styles.brandName}>{title}</p>
             </div>
-
-            
-
             <div className={styles.buy}>
                 <div className={styles.price}>
                     <span>Price:</span>
