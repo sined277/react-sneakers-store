@@ -9,13 +9,9 @@ const ShoesCard = ({ title, price, imageUrlAdress, id }) => {
 
     const [isAddedToCart, setisAddedToCart] = useState(false)
     const dispatch = useDispatch()
-
     const handlerAddToCart = () => {
         setisAddedToCart(!isAddedToCart)
     }
-
-    
-
     const addToCartClick = (obj) => {
         dispatch(addToCart(obj))
     }
